@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bhaktivedanta Book Trust (Announcement and Advertisement)</title>
+    <meta charset="UTF-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="stylesheet" href="/css/style.css?_v=20220730153125" />
+    <!--link rel="shortcut icon" href="favicon.ico"-->
+    <link rel="icon" href="/img/favicon.svg" type=" image/svg+xml" />
+    <!-- <meta name="robots" content="noindex, nofollow"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="Bhaktivedanta Book Trust (Announcement and Advertisement)"
+    />
+    <meta
+      name="description"
+      content="Bhaktivedanta Book Trust (Announcement and Advertisement)"
+    />
+
+    <meta
+      property="og:title"
+      content="Bhaktivedanta Book Trust (Announcement and Advertisement)"
+    />
+    <meta property="og:site_name" content="bhaktivedanta-book-trust.com" />
+    <meta property="og:url" content="/announcement.html" />
+    <meta
+      property="og:description"
+      content="Bhaktivedanta Book Trust (Announcement and Advertisement)"
+    />
+    <meta property="og:image" content="/img/meta/preview-announcement.jpg" />
+    <meta property="og:image:width" content="968" />
+    <meta property="og:image:height" content="504" />
+
+    <script defer src="/js/counter3.js"></script>
+    <script defer type="module" src="/js/app.js"></script>
+  </head>
+
+  <body>
+    <div class="wrapper" data-sticky>
+      <header class="header">
+        <div class="header__upper-line">
+          <div class="header__upper-container">
+            <div class="header__logo logo">
+              <img
+                class="logo__icon"
+                src="/img/top-logo.svg"
+                alt="Bhaktivedanta book trust logotype"
+              />
+              <span class="logo__description">BHAKTIVEDANTA BOOK TRUST</span>
+            </div>
+          </div>
+        </div>
+        <div class="header__lower-line" data-sticky-item>
+          <div class="header__container">
+            <div class="header__menu menu">
+              <button type="button" class="menu__icon icon-menu">
+                <span></span>
+              </button>
+              <nav class="menu__body">
+                <ul class="menu__list">
+                  <li class="menu__item">
+                    <a
+                      href="index.html"
+                      class="menu__link"
+                      data-language="menu_1"
+                      >℗</a
+                    >
+                  </li>
+                  <li class="menu__item">
+                    <a
+                      href="history.html"
+                      class="menu__link"
+                      data-language="menu_2"
+                      >HISTORY</a
+                    >
+                  </li>
+                  <li class="menu__item">
+                    <a
+                      href="trust.html"
+                      class="menu__link"
+                      data-language="menu_3"
+                      >TRUST</a
+                    >
+                  </li>
+                  <li class="menu__item">
+                    <a
+                      href="assets.html"
+                      class="menu__link"
+                      data-language="menu_6"
+                      >ASSETS</a
+                    >
+                  </li>
+                  <li class="menu__item">
+                    <a
+                      href="documents.html"
+                      class="menu__link"
+                      data-language="menu_7"
+                      >DOCUMENTS</a
+                    >
+                  </li>
+                  <!--li class="menu__item"><a target="_blank" href="https://www.youtube.com/@Bhaktivedanta-Book-Trust" onclick="GoToPage(lastpath + '>goto#' + href); return true;" class="menu__link" data-language="menu_4">VIDEO</a></li-->
+                  <li class="menu__item">
+                    <a
+                      href="announcement.html"
+                      class="menu__link"
+                      data-language="menu_5"
+                      >ANNOUNCEMENT</a
+                    >
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div class="header__laguage">
+              <img
+                class="header__language-icon"
+                src="/img/globus.svg"
+                alt=""
+                aria-hidden="true"
+              />
+              <select data-select name="form[]" class="form">
+                <option value="en">EN</option>
+                <option value="ru">RU</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="page">
+        <section class="page__annoncment annoncment">
+          <div class="annoncment__container">
+            <h1 class="annoncment__title" data-language="annoncmentTitle">
+              Announcement and Advertisement
+            </h1>
+            <div
+              class="annoncment__form"
+              style="background-image: url('/img/announcement/background.jpg')"
+            >
+              <div class="ask" id="body">
+                <form class="ask" action="#" id="myform">
+                  <select data-select name="type" class="form">
+                    <option value="feedback" selected="feedback"></option>
+                    <!--option value="feedback" selected="feedback">Feedback</option-->
+                    <!--option value="mail">Mail</option-->
+                  </select>
+                  <select data-select name="sign" class="form">
+                    <option id="sign" selected="sign"></option>
+                    <!--option value="feedback" selected="feedback">Feedback</option-->
+                    <!--option value="mail">Mail</option-->
+                  </select>
+                  <!--input autocomplete="off" type="text" name="type" value="feedback" data-error="Ошибка" placeholder="" class="ask__input"-->
+                  <label for="fname" data-language="feedbackForm_Name"
+                    >Name</label
+                  >
+                  <input
+                    autocomplete="off"
+                    type="text"
+                    name="fname"
+                    maxlength="55"
+                    id="my-name"
+                    value=""
+                    data-error="Ошибка"
+                    placeholder=""
+                    class="ask__input"
+                  />
+                  <p id="name-result" class="annoncment__result"></p>
+                  <label for="contact" data-language="feedbackForm_Contact"
+                    >Feedback contact</label
+                  >
+                  <input
+                    autocomplete="off"
+                    type="text"
+                    name="contact"
+                    maxlength="100"
+                    id="my-contact"
+                    value=""
+                    data-error="Ошибка"
+                    placeholder=""
+                    class="ask__input"
+                  />
+                  <p id="contact-result" class="annoncment__result"></p>
+                  <!--textarea autocomplete="off" type="text" name="text" data-error="Ошибка" placeholder="" class="ask__input ask__input_textarea"></textarea-->
+                  <label for="text" data-language="feedbackForm_Message"
+                    >Message</label
+                  >
+                  <textarea
+                    autocomplete="off"
+                    maxlength="3000"
+                    type="text"
+                    name="text"
+                    id="my-text"
+                    value=""
+                    data-error="Ошибка"
+                    placeholder=""
+                    class="ask__input ask__input_textarea"
+                  ></textarea>
+                  <p id="text-result" class="annoncment__result"></p>
+                  <!--input type="radio" name="sign" id="sign" checked="checked"-->
+                  <!--select name="sign">
+							    <option id="sign">Sign</option>
+							</select-->
+                  <submit class="ask__button" id="btn" name="btn"
+                    ><span data-language="annoncmentButton"
+                      >FEEDBACK</span
+                    ></submit
+                  >
+                  <!--input type="submit" id="btn" name="btn" class="btn" value="Submit" /-->
+                  <!--submit class="ask__button"><span data-language="annoncmentButton">SEND</span></submit-->
+                </form>
+              </div>
+            </div>
+            <div class="annoncment__body">
+              <div
+                data-popup="#popup-annoncment-1"
+                class="annoncment__item item-annoncment"
+                style="
+                  background-image: url('/img/announcement/background.jpg');
+                "
+              >
+                <h3
+                  class="item-annoncment__title"
+                  data-language="annoncmentPopup_1"
+                >
+                  Требуется юрист по международным уголовным преступлениям
+                </h3>
+              </div>
+              <div
+                data-popup="#popup-annoncment-2"
+                class="annoncment__item item-annoncment"
+                style="
+                  background-image: url('/img/announcement/background.jpg');
+                "
+              >
+                <h3
+                  class="item-annoncment__title"
+                  data-language="annoncmentPopup_2"
+                >
+                  Бхактиведанта Бук Траст возобновил свою работу
+                </h3>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer__line-container">
+          <div class="footer__inner _flex">
+            <div class="footer__logo">
+              <a href="index.html">
+                <img
+                  src="/img/bottom-logo.svg"
+                  alt="Bhaktivedanta Swami Prabhupāda"
+                />
+              </a>
+            </div>
+            <nav class="footer__navigation _flex">
+              <div class="footer__navigation-block">
+                <a
+                  href="announcement.html"
+                  class="footer__navigation-link"
+                  data-language="footerLink_1"
+                  >Announcement</a
+                >
+                <a
+                  target="_blank"
+                  id="YoutubeLink"
+                  onclick="GoToPage(lastpath + '>goto#' + href); return true;"
+                  class="footer__navigation-link"
+                  data-language="footerLink_2"
+                  >Video</a
+                >
+              </div>
+              <div class="footer__navigation-block">
+                <a
+                  href="history.html"
+                  class="footer__navigation-link"
+                  data-language="footerLink_3"
+                  >BBT history</a
+                >
+                <a
+                  href="assets.html"
+                  class="footer__navigation-link"
+                  data-language="footerLink_4"
+                  >Trust assets</a
+                >
+              </div>
+              <div class="footer__navigation-block">
+                <a
+                  href="documents.html"
+                  class="footer__navigation-link"
+                  data-language="footerLink_5"
+                  >Legal documents</a
+                >
+                <a
+                  href="trust.html"
+                  class="footer__navigation-link"
+                  data-language="footerLink_6"
+                  >Trust</a
+                >
+              </div>
+            </nav>
+            <div class="footer__contacts">
+              <div class="footer__contacts-title" data-language="footerContact">
+                Contact with us:
+              </div>
+              <a
+                href="announcement.html"
+                onclick="GoToPage(lastpath + '>goto#' + href); return true;"
+                target="_blank"
+                class="footer__contacts-link"
+                >email: @bhaktivedanta-book-trust.com</a
+              >
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <div id="popup-annoncment-1" aria-hidden="true" class="popup">
+      <div class="popup__wrapper">
+        <div class="popup__container">
+          <div class="popup__content">
+            <button data-close type="button" class="popup__close">
+              <img src="/img/close-button.svg" alt="Close the modal window" />
+            </button>
+            <div class="popup__text">
+              <h2 class="popup__title" data-language="annoncmentPopup_1">
+                Требуется специалист по международному уголовному праву
+              </h2>
+              <div class="popup__image">
+                <picture
+                  ><source
+                    srcset="/img/announcement/background.webp"
+                    type="image/webp" />
+                  <img
+                    src="/img/announcement/background.jpg"
+                    alt="Требуется юрист по междунарожным уголовным преступлениям"
+                /></picture>
+              </div>
+              <div class="popup__info">
+                <p>
+                  <!--Test text: Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quidem minima sapiente dolores modi, eius unde pariatur alias commodi explicabo?
+-->
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="popup-annoncment-2" aria-hidden="true" class="popup">
+      <div class="popup__wrapper">
+        <div class="popup__container">
+          <div class="popup__content">
+            <button data-close type="button" class="popup__close">
+              <img src="/img/close-button.svg" alt="Close the modal window" />
+            </button>
+            <div class="popup__text">
+              <h2 class="popup__title" data-language="annoncmentPopup_2">
+                Траст возобновил свою работу
+              </h2>
+              <div class="popup__image">
+                <picture
+                  ><source
+                    srcset="/img/announcement/background.webp"
+                    type="image/webp" />
+                  <img
+                    src="/img/announcement/background.jpg"
+                    alt="Траст возобновил свою работу"
+                /></picture>
+              </div>
+              <div class="popup__info">
+                <p>
+                  <!--Test text: Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quidem minima sapiente dolores modi, eius unde pariatur alias commodi explicabo?
+-->
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="/js/jquery-3.1.1.js"></script>
+    <script src="/js/app4.js"></script>
+  </body>
+
+  <script>
+    /// ПОСТВЕТКА ПРЕВЫШЕНИЯ ЛИМИТОВ В ТЕКСТОВЫХ ПОЛЯХ
+
+    var myName = document.getElementById("my-name");
+    var name_result = document.getElementById("name-result");
+    var name_limit = 55;
+    var name_before_limit = (name_limit / 100) * 20;
+    name_result.textContent = 0 + "/" + name_limit;
+    myName.addEventListener("input", function () {
+      var nameLength = myName.value.length;
+      name_result.textContent = nameLength + "/" + name_limit;
+      if (nameLength >= name_limit - name_before_limit) {
+        name_result.style.color = "#ff2851";
+        //            myName.style.background = "#ffCC80";
+        myName.style.background = "#ffe0B2";
+        if (nameLength >= name_limit) {
+          myName.style.background = "#ff3d00";
+        }
+      } else {
+        name_result.style.color = "#31821b";
+        myName.style.background = "#ffffff";
+      }
+    });
+
+    var myContact = document.getElementById("my-contact");
+    var contact_result = document.getElementById("contact-result");
+    var contact_limit = 100;
+    var contact_before_limit = (contact_limit / 100) * 20;
+    contact_result.textContent = 0 + "/" + contact_limit;
+    myContact.addEventListener("input", function () {
+      var contactLength = myContact.value.length;
+      contact_result.textContent = contactLength + "/" + contact_limit;
+      if (contactLength >= contact_limit - contact_before_limit) {
+        //            myContact.style.borderColor = "#ff2851";
+        contact_result.style.color = "#ff2851";
+        //            contact_result.style.color = "#ff0000";
+        myContact.style.background = "#ffe0B2";
+        //            myContact.style.color = "#ff0000";
+        if (contactLength >= contact_limit) {
+          myContact.style.background = "#ff3d00";
+        }
+      } else {
+        //            myContact.style.borderColor = "#31821b";
+        contact_result.style.color = "#31821b";
+        myContact.style.background = "#ffffff";
+        //            myContact.style.color = "#000000";
+      }
+    });
+
+    var myText = document.getElementById("my-text");
+    var text_result = document.getElementById("text-result");
+    var text_limit = 3000;
+    var text_before_limit = (text_limit / 100) * 20;
+    text_result.textContent = 0 + "/" + text_limit;
+    myText.addEventListener("input", function () {
+      var textLength = myText.value.length;
+      text_result.textContent = textLength + "/" + text_limit;
+      if (textLength >= text_limit - text_before_limit) {
+        //            myText.style.borderColor = "#ff2851";
+        text_result.style.color = "#ff2851";
+        //            text_result.style.color = "#ff0000";
+        myText.style.background = "#ffe0B2";
+        //            myText.style.color = "#ff0000";
+        if (textLength >= text_limit) {
+          myText.style.background = "#ff3d00";
+        }
+      } else {
+        //            myText.style.borderColor = "#31821b";
+        text_result.style.color = "#31821b";
+        myText.style.background = "#ffffff";
+        //            myText.style.color = "#000000";
+      }
+    });
+  </script>
+
+  <script type="text/javascript">
+    //    const iddd0 = `f${(~~(Math.random()*8e8)).toString(16)}${localStorage.getItem("defaultLanguage")}`;
+    const iddd0 = `f${(~~(Math.random() * 8e8)).toString(16)}` + langset;
+    const iddd1 = iddd0;
+    //    const uuid3 =()=>'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g,(c,r)=>('x'==с?(r=Math.random()*16|0):(r&0x3|0x8)).toString(16));
+    //    const uuid3 = `=()=>([1e7]+-1e3+-4e3+-8e3+-1e11).replace(/[018]/g,c=>(c^crypto.getRandomValues(new Uint8Array(1))[0]&15 >> c/4).toString(16))`;
+    function uuidv4() {
+      return ([1e7] + -1e3 + -4e3 + -8e3 + -1e11).replace(/[018]/g, (c) =>
+        (
+          c ^
+          (crypto.getRandomValues(new Uint8Array(1))[0] & (15 >> (c / 4)))
+        ).toString(16)
+      );
+    }
+    //    var ttwrl = '0';
+    //    ttwrl = (Math.round(new Date().getTime()/1000));
+    //    ttwrl = (Math.round((new Date().getTime())/1000));
+    //    ttwrl = (Math.floor(Date.now() /1000));
+    //    var newDate = new Date();
+    //    let ttwrl = Date.now();
+    const uuid3 = uuidv4();
+    const uuid1 = `2`;
+    const visits2 = `2`;
+    const iddd3 =
+      iddd1 +
+      "_" +
+      uniq +
+      "_" +
+      visits +
+      "_" +
+      clics +
+      "_" +
+      uniqs +
+      "_" +
+      sclics +
+      "_" +
+      fctime +
+      "_" +
+      lctime1 +
+      "_" +
+      deviationtime +
+      "_" +
+      langset;
+    //    const iddd3 = (iddd1 + "_" + uniq  + "_" + visits + "_" + clics + "_" + uniqs + "_" + sclics + "_" + fctime + "_" + lctime1 + "_" + ttwrl);
+    //var test = "Hello";
+    // добавляем подпись
+    document.getElementById("sign").value = iddd3;
+    //    var locale10 = "ru";
+    //    locate10 = `${localStorage.getItem("defaultLanguage")}`;
+    // добавляем подпись
+    //    document.getElementById("locale0").value = locale10;
+  </script>
+
+  <script type="text/javascript">
+    //  const uuid =()=>'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g,(c,r)=>('x'==с?(r=Math.random()*16|0):(r&0x3|0x8)).toString(16));
+    $(document).ready(function () {
+      $("#btn").click(function (e) {
+        var jsonData = {};
+        var formData = $("#myform").serializeArray();
+        // console.log(formData);
+        $.each(formData, function () {
+          if (jsonData[this.name]) {
+            if (!jsonData[this.name].push) {
+              jsonData[this.name] = [jsonData[this.name]];
+            }
+            jsonData[this.name].push(this.value || "");
+          } else {
+            jsonData[this.name] = this.value || "";
+          }
+        });
+        console.log(jsonData);
+        var xhr1 = new XMLHttpRequest(); //Создаём объект для отправки запроса
+        //   xhr1.open("GET", "annoncment_rt.php"  + jsonData, true);
+        xhr1.open("POST", "annoncment_rt.php");
+        xhr1.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
+        xhr1.send(JSON.stringify(jsonData));
+        xhr1.responseType = "text";
+        var msg_eid = "bbb";
+        xhr1.onload = function () {
+          //	msg_eid = 'aaa';
+          if (xhr1.readyState === xhr1.DONE) {
+            if (xhr1.status === 200) {
+              //                return xhr1.responseText;
+              //                console.log(xhr1.response);
+              //                console.log(xhr1.responseText);
+              msg_eid = xhr1.responseText;
+              //                responseText = responseText.replace(/\r|\n/g, '')
+              msg_eid = msg_eid.replace(/\r|\n/g, "");
+              GoToPage(lastpath + ">click_feedback#" + msg_eid);
+              LinkClick("Feedback", msg_eid);
+            }
+          }
+        };
+        xhr1.onload();
+
+        //    var aaa = 30;
+        //    function foo() {
+        //	aaa = 25;
+        //    }
+        //    foo();
+        //    var aaa = 30;
+        //    ffff = function () {
+        //	aaa = 25;
+        //    }
+        //    ffff();
+
+        //-    var AjaxSend = $.ajax(
+        //    var msg_eid = '';
+        //    $.ajax(
+        //    {
+        //        url : "annoncment_rt.php",
+        //        type: "POST",
+        //-        type: "GET",
+        //        data : jsonData,
+        //	success: function(res) {
+        //            msg_eid = res;
+        //            // then you can manipulate your text as you wish
+        //	}
+        //-    }).done(function(data){alert(data);});
+        //-    }).done(function(data){const msg_eid = (data);}).fail(function(data){const msg_eid = (data);});
+        //-    }).done(function(data){msg_eid = (data);});
+        //    });
+
+        //   var resultText = AjaxSend.responseText;
+
+        //    var aaa = 30;
+        //    function foo() {
+        //	aaa = 25;
+        //    }
+        //    foo();
+        //    alert(aaa); // will give 25
+
+        //   console.log(aaa);
+        //   console.log(msg_eid);
+        //   console.log(xhr1.onload);
+        //   console.log(xhr1.responseText);
+
+        e.preventDefault();
+        //    LinkClick('Main', iddd1);
+        //    LinkClick('Main');
+        //    LinkClick(jsonData);
+      });
+    });
+  </script>
+</html>
