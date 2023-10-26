@@ -99,14 +99,6 @@ if (!self.__WB_pmw) {
     if (!lctime) lctime = ctime;
     else lctime = lctime;
 
-    //Сессионная кука
-    uniqs = getCookie("uuids");
-    uniqs0 = uniqs;
-    if (!uniqs) uniqs = uniq2;
-    // 20 минутная задержка
-    else if (parseInt(lctime) + 1200 < ctime) uniqs = uniq2;
-    else uniqs = uniqs;
-
     // Время первого клика сессии
     fctime = getCookie("stime");
     if (!fctime) fctime = ctime;

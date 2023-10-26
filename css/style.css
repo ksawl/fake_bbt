@@ -2,63 +2,63 @@
 @font-face {
   font-family: Didoni;
   font-display: swap;
-  src: url("/fonts/Didoni-Bold_v2.10.32.woff2") format("woff2"), url("/fonts/Didoni-Bold_v2.10.32.woff") format("woff");
+  src: url("../fonts/Didoni-Bold_v2.10.32.woff2") format("woff2"), url("../fonts/Didoni-Bold_v2.10.32.woff") format("woff");
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
   font-family: Didoni;
   font-display: swap;
-  src: url("/fonts/Didoni-Italic_v2.10.33_27.woff2") format("woff2"), url("/fonts/Didoni-Italic_v2.10.33_27.woff") format("woff");
+  src: url("../fonts/Didoni-Italic_v2.10.33_27.woff2") format("woff2"), url("../fonts/Didoni-Italic_v2.10.33_27.woff") format("woff");
   font-weight: 400;
   font-style: italic;
 }
 @font-face {
   font-family: Didoni;
   font-display: swap;
-  src: url("/fonts/Didoni-Regular_v2.10.32.woff") format("woff2"), url("/fonts/Didoni-Regular_v2.10.32.woff") format("woff");
+  src: url("../fonts/Didoni-Regular_v2.10.32.woff") format("woff2"), url("../fonts/Didoni-Regular_v2.10.32.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: Optima;
   font-display: swap;
-  src: url("/fonts/Optima-Bold.woff2") format("woff2"), url("/fonts/Optima-Bold.woff") format("woff");
+  src: url("../fonts/Optima-Bold.woff2") format("woff2"), url("../fonts/Optima-Bold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
   font-family: Optima;
   font-display: swap;
-  src: url("/fonts/Optima-Regular.woff2") format("woff2"), url("/fonts/Optima-Regular.woff") format("woff");
+  src: url("../fonts/Optima-Regular.woff2") format("woff2"), url("../fonts/Optima-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: Windsor;
   font-display: swap;
-  src: url("/fonts/Windsor-Bold.web1.woff2") format("woff2"), url("/fonts/Windsor-Bold.web1.woff") format("woff");
+  src: url("../fonts/Windsor-Bold.web1.woff2") format("woff2"), url("../fonts/Windsor-Bold.web1.woff") format("woff");
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
   font-family: Windsor;
   font-display: swap;
-  src: url("/fonts/Windsor-Regular.woff2") format("woff2"), url("/fonts/Windsor-Regular.woff") format("woff");
+  src: url("../fonts/Windsor-Regular.woff2") format("woff2"), url("../fonts/Windsor-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: Newton;
   font-display: swap;
-  src: url("/fonts/Newton-ItalicV2.02.04.woff2") format("woff2"), url("/fonts/Newton-ItalicV2.02.04.woff") format("woff");
+  src: url("../fonts/Newton-ItalicV2.02.04.woff2") format("woff2"), url("../fonts/Newton-ItalicV2.02.04.woff") format("woff");
   font-weight: 400;
   font-style: italic;
 }
 @font-face {
   font-family: Newton;
   font-display: swap;
-  src: url("/fonts/Newton-RegularV2.02.04.woff2") format("woff2"), url("/fonts/Newton-RegularV2.02.04.woff") format("woff");
+  src: url("../fonts/Newton-RegularV2.02.04.woff2") format("woff2"), url("../fonts/Newton-RegularV2.02.04.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
@@ -767,7 +767,7 @@ body::after {
     position: absolute;
     width: 100%;
     height: 0.125rem;
-    background-image: url("/img/burder-line.svg");
+    background-image: url("../img/burder-line.svg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -1050,7 +1050,7 @@ body::after {
   right: -28%;
   background-repeat: no-repeat;
   background-size: contain;
-  background-image: url("/img/main-block/description.svg");
+  background-image: url("../img/main-block/description.svg");
 }
 .main-block__text h1:last-child._ru::after {
   bottom: -75%;
@@ -1301,7 +1301,7 @@ body::after {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
-  background-image: url("/img/attention/background.svg");
+  background-image: url("../img/attention/background.svg");
 }
 @media (max-width: 61.99875em) {
   .attention__column:last-child::after {
